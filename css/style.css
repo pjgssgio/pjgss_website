@@ -4,7 +4,7 @@
 
 .main-container {
     background-color: #38af75;
-    height: 100vh;
+    height: 100vh !important;
 }
 
 span {
@@ -13,4 +13,49 @@ span {
 
 a {
     color: blue;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img[name="pjgss-logo"] {
+        width: 75%;
+        height: 50%;
+    }
+
+    span[name="pjgss-name"] {
+        font-weight: bolder;
+        margin: 5%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    span[name="pjgss-name"] {
+        font-weight: bolder;
+        font-size: large;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    span[name="pjgss-name"] {
+        font-weight: bolder;
+        font-size: x-large;
+    }
+
+    span[name="pjgss-name"] {
+        font-size: large;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    span[name="pjgss-name"] {
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+
+    span[name="pjgss-name"] {
+        font-size: x-large;
+    }
 }
