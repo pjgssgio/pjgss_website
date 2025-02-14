@@ -1,0 +1,12 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    background-color: #38af75;
+    height: 100vh;
+}
+
+span {
+    color:antiquewhite !important;
+}
